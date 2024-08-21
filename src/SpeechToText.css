@@ -1,0 +1,22 @@
+.log-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.log-item {
+    margin-bottom: 10px;
+}
+
+.log-item.user {
+    text-align: left;
+    color: #000;
+}
+
+.log-item.moderator {
+    text-align: right;
+    color: #007bff;
+}
